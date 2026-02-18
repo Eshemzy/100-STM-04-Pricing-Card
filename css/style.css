@@ -27,22 +27,73 @@ body,html {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background: var(--pry-light);
+  background: var(--pry-dark);
+  line-height: 1.6;
+  color: var(--text-clr-light);
 }
 .main-inner {
   max-width: 100%;
   min-height: 100vh;
 }
-.pricing {
+section.pricing {
   padding: 0 2rem;
 }
 .pricing-inner {
   width: 100%;
   max-width: 1100px;
   margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+header.pricing__header {
+  text-align: center;
 }
 .cards__wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  gap: 1rem;
+}
+.card {
+  border: 1px solid;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+.light--card {
+  border-color: var(--pry-clr);
+  background: var(--card-bg-light);
+  color: var(--text-clr-dark);
+}
+.dark--card {
+  border-color: var(--sec-clr);
+  background: var(--card-bg-dark);
+  color: var(--text-clr-light);
+}
+.top,
+.bottom {
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: column;
+}
+.top--light,
+.bottom--light {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.top--dark,
+.bottom--dark {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.top--spacing {
+  gap: 0.5rem;
+}
+.bottom--spacing {
+  gap: 1rem;
+}
+.pro--card .top .card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
