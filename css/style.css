@@ -6,6 +6,8 @@
   /* BLACKS */
   --pry-dark: #061215;
   --pry-dark-sub: #1d1f21;
+  --pry-light: #f3f3f3;
+  --pry-light-sub: #f8f8f8;
 
   --text-clr-light: #fff;
   --text-clr-dark: #000;
@@ -25,13 +27,22 @@ body,html {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background: var(--pry-dark);
+  background: var(--pry-light);
 }
-.web-cont {
+.main-inner {
   max-width: 100%;
+  min-height: 100vh;
+}
+.pricing {
+  padding: 0 2rem;
 }
 .pricing-inner {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1100px;
   margin-inline: auto;
+}
+.cards__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
 }
