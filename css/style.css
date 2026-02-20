@@ -59,8 +59,8 @@ header.pricing__header {
   border: 1px solid;
   display: grid;
   grid-template-rows: auto 1fr;
-  gap: 0.5rem;
-  padding: 0.5rem;
+  gap: 1rem;
+  padding: 1rem;
   border-radius: 0.8rem;
 }
 .light--card {
@@ -72,6 +72,20 @@ header.pricing__header {
   border-color: var(--sec-clr);
   background: var(--pry-dark-sub);
   color: var(--text-clr-light);
+}
+.top--light,
+.bottom--light .fc-wrapper .card__features {
+  background-color: #eee;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  border: 1px solid lightgrey;
+}
+.top--dark,
+.bottom--dark .fc-wrapper .card__features {
+  background-color: #111;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  border: 1px solid darkgrey;
 }
 .top,
 .bottom {
