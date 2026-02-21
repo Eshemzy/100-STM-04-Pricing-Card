@@ -49,11 +49,10 @@ section.pricing {
 }
 header.pricing__header {
   text-align: center;
-  line-height: 1.4;
-  border-bottom: 1px solid lightgray;
 }
 header.pricing__header h1 {
   font-size: clamp(1.3rem, 0.638rem + 3.78vw, 2rem);
+  border-bottom: 1px solid lightgray;
 }
 header.pricing__header p {
   font-size: clamp(0.8rem, 0.611rem + 1.08vw, 1rem);
