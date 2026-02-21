@@ -107,7 +107,7 @@ header.pricing__header {
 }
 .card__icon i,
 .popular i {
-  font-size: clamp(0.7rem, 0.227rem + 2.7vw, 1.2rem);
+  font-size: clamp(0.7rem, 0.416rem + 1.62vw, 1rem);
   background-color: var(--sec-clr);
   padding: 0.3rem;
   color: var(--text-clr-dark);
@@ -145,11 +145,11 @@ header.pricing__header {
   content: '';
   width: 20%;
   margin: 0 auto;
-  height: 3px;
+  height: clamp(0.125rem, 0.066rem + 0.34vw, 0.188rem);
   background-color: var(--sec-clr);
   left: 0;
   right: 0;
-  bottom: -15%;
+  bottom: 0.1rem;
   border-radius: 100px;
   transition: width 400ms ease-in-out;
 }
@@ -183,7 +183,7 @@ header.pricing__header {
 .fc-wrapper .card__features ul {
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
+  gap: clamp(0.1rem, 0.005rem + 0.54vw, 0.2rem);
   list-style: none;
 }
 .fc-wrapper .card__features ul li {
