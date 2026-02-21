@@ -122,7 +122,6 @@ header.pricing__header {
 .popular span {
   font-size: clamp(0.65rem, 0.508rem + 0.81vw, 0.8rem);
 }
-
 .text-wrapper .card__title h2,
 .top--dark .text-wrapper .card__title h2 {
   font-size: clamp(1.15rem, 0.819rem + 1.89vw, 1.5rem);
@@ -139,6 +138,23 @@ header.pricing__header {
   align-items: center;
   justify-content: center;
   gap: 0.3rem;
+  position: relative;
+}
+.card__price::after {
+  position: absolute;
+  content: '';
+  width: 20%;
+  margin: 0 auto;
+  height: 3px;
+  background-color: var(--sec-clr);
+  left: 0;
+  right: 0;
+  bottom: -15%;
+  border-radius: 100px;
+  transition: width 400ms ease-in-out;
+}
+.card:hover .card__price::after {
+  width: 100%;
 }
 .price-main p {
   font-size: clamp(2rem, 1.527rem + 2.7vw, 2.5rem);
@@ -194,6 +210,8 @@ button.cta-btn {
   border-radius: 0.25rem;
   cursor: pointer;
   transition: filter 200ms ease, transform 300ms ease;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
 }
 .cta-btn:focus-visible {
   outline: 2px solid var(--pry-clr);
