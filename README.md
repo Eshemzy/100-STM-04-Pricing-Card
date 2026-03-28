@@ -1,6 +1,6 @@
 # 100-STM-04-Pricing-Card
-A clean and structured Blog Layout UI built with HTML & CSS.
-This project is part of my 100 Steps to Mastery (100-STM) challenge, a hands-on journey to strengthen my frontend development skills through consistent building.
+A modern and responsive Pricing Card UI built with HTML & CSS.
+This project is part of my 100 Steps to Mastery (100-STM) challenge — focused on strengthening my frontend fundamentals through consistent, hands-on building.
 
 
 Pls Click here to view live demo <br>
