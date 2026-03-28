@@ -1,24 +1,70 @@
 # 100-STM-04-Pricing-Card
-Pricing Card Layout Design
+A clean and structured Blog Layout UI built with HTML & CSS.
+This project is part of my 100 Steps to Mastery (100-STM) challenge, a hands-on journey to strengthen my frontend development skills through consistent building.
 
-This project is part of my 100 Steps to Mastery challenge, where I build 100 HTML & CSS projects to deepen my frontend fundamentals.
 
-Built with
-- HTML5
-- CSS3
+Pls Click here to view live demo <br>
+https://eshemzy.github.io/100-STM-04-Pricing-Card
 
-![Screenshot_21-2-2026_94950_127 0 0 1](https://github.com/user-attachments/assets/8900f5fd-0c3a-492d-a17e-fb10649c650d)
+![100-STM-04](https://github.com/user-attachments/assets/cee11c6b-e68f-4604-b218-971906ca4ef4)
 
-Focus for this Project
-- Responsiveness
-- Accessibility
-- Box Model
-- flexbox
-- positioning
-- alignment
-- grid
-- typography
+🎯 <strong>Project Objective</strong>
+The goal of this project is to:
+- Design a clean and structured pricing layout
+- Practice organizing multiple UI components in a single view
+- Improve layout control and visual hierarchy
 
-To view Live Page, Pls Click Here :
 
-http://eshemzy.github.io/100-STM-04-Pricing-Card
+🛠️ <strong>Tech Stack</strong>
+- HTML5 — Semantic structure
+- CSS3 — Styling and layout
+
+
+<strong>Key learning Focus</strong>
+This project emphasizes:
+- 📱 Responsive Design — Works across different screen sizes
+- ♿ Accessibility — Semantic HTML & readable structure
+- 📦 CSS Box Model — Spacing and layout control
+- 🔄 Flexbox — Component alignment and distribution
+- 🧩 CSS Grid — Layout structuring
+- 📐 Positioning — Relative & absolute placement
+- ✍️ Typography — Visual hierarchy and readability
+
+
+✨ <strong>Features</strong>
+- Multiple pricing tiers/cards
+- Clear visual hierarchy for plans and features
+- Clean and modern UI design
+- Responsive layout across screen sizes
+
+
+📂 <strong>Folder Structure</strong> <br>
+100-STM-04-Pricing-Card/ <br>
+│── index.html <br>
+│── css/ <br>
+│   └── style.css <br>
+│── images/ <br>
+│   └── '...'.png <br>
+
+
+⚙️<strong>Run Locally</strong> <br>
+git clone https://github.com/eshemzy/100-STM-04-Pricing-Card.git <br>
+cd 100-STM-04-Pricing-Card <br>
+open index.html <br>
+
+
+📈 <strong>Improvements (Next Iteration)</strong>
+- Add hover states and micro-interactions
+- Highlight a “recommended” plan
+- Improve accessibility (focus states, contrast)
+- Introduce animations for better user experience
+
+🎬 <strong>100 Steps to Mastery</strong>
+This is project 04 / 100 of my challenge
+
+🤝 <strong>Connect With Me</strong> <br>
+GitHub: https://github.com/eshemzy <br>
+Portfolio: (coming soon)👀
+
+⭐ <strong>Support</strong> <br>
+If you found this useful, drop a ⭐ on the repo — it helps and keeps me going.
